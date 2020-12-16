@@ -26,6 +26,7 @@ augroup END
 " }}}
 " basic mappigns ---------- {{{
 inoremap jj <esc>
+nnoremap <leader>ev :vsp ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
 tnoremap jj <C-\><C-n> 
 
